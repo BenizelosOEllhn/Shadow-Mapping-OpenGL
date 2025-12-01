@@ -1,0 +1,206 @@
+[
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/lab06/lab.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/lab06/lab.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/lab06/lab.cpp",
+  "output": "CMakeFiles/lab06.dir/lab06/lab.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/util.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/util.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/util.cpp",
+  "output": "CMakeFiles/lab06.dir/common/util.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/shader.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/shader.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/shader.cpp",
+  "output": "CMakeFiles/lab06.dir/common/shader.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/camera.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/camera.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/camera.cpp",
+  "output": "CMakeFiles/lab06.dir/common/camera.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/model.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/model.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/model.cpp",
+  "output": "CMakeFiles/lab06.dir/common/model.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/texture.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/texture.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/texture.cpp",
+  "output": "CMakeFiles/lab06.dir/common/texture.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glm-0.9.7.1 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyobjloader/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/common -I/Users/konstantinoskanellopoulos/Downloads/lab06/lab06 -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/lab06.dir/common/light.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/common/light.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/common/light.cpp",
+  "output": "CMakeFiles/lab06.dir/common/light.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/src/glew.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/src/glew.c",
+  "output": "external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/include -std=gnu++17 -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/TINYXML2.dir/tinyxml2/src/tinyxml2.cpp.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/src/tinyxml2.cpp",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/tinyxml2/src/tinyxml2.cpp",
+  "output": "external/CMakeFiles/TINYXML2.dir/tinyxml2/src/tinyxml2.cpp.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/context.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/context.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/context.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/init.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/init.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/init.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/input.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/input.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/input.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/monitor.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/monitor.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/platform.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/platform.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/vulkan.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/vulkan.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/window.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/window.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/window.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/egl_context.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/egl_context.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/osmesa_context.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/osmesa_context.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_init.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_init.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_monitor.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_monitor.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_window.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_window.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_joystick.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/null_joystick.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_time.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_time.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/posix_module.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/posix_module.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/posix_thread.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/posix_thread.c",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -x objective-c -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_init.m",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_init.m",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -x objective-c -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_joystick.m",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_joystick.m",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -x objective-c -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_monitor.m",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_monitor.m",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -x objective-c -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_window.m",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/cocoa_window.m",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_COCOA -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src -I/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src -x objective-c -std=c99 -arch arm64 -fPIC   -Wno-deprecated-declarations -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/nsgl_context.m",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/src/nsgl_context.m",
+  "output": "external/glfw-3.4/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/Simple-OpenGL-Image-Library",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include  -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/SOIL.dir/src/SOIL.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/SOIL.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/SOIL.c",
+  "output": "external/Simple-OpenGL-Image-Library/CMakeFiles/SOIL.dir/src/SOIL.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/Simple-OpenGL-Image-Library",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include  -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/SOIL.dir/src/image_DXT.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/image_DXT.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/image_DXT.c",
+  "output": "external/Simple-OpenGL-Image-Library/CMakeFiles/SOIL.dir/src/image_DXT.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/Simple-OpenGL-Image-Library",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include  -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/SOIL.dir/src/image_helper.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/image_helper.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/image_helper.c",
+  "output": "external/Simple-OpenGL-Image-Library/CMakeFiles/SOIL.dir/src/image_helper.c.o"
+},
+{
+  "directory": "/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/Simple-OpenGL-Image-Library",
+  "command": "/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glfw-3.4/include/GLFW -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/glew-1.13.0/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -I/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/include  -arch arm64   -Wno-deprecated-declarations -o CMakeFiles/SOIL.dir/src/stb_image_aug.c.o -c /Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/stb_image_aug.c",
+  "file": "/Users/konstantinoskanellopoulos/Downloads/lab06/external/Simple-OpenGL-Image-Library/src/stb_image_aug.c",
+  "output": "external/Simple-OpenGL-Image-Library/CMakeFiles/SOIL.dir/src/stb_image_aug.c.o"
+}
+]

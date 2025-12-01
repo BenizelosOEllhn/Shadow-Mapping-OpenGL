@@ -1,0 +1,145 @@
+#version 330 core
+
+// Inputs from Vertex Shader
+in vec4 vertex_position_cameraspace;
+in vec4 vertex_normal_cameraspace;
+in vec2 vertex_UV;
+in vec4 vertex_position_lightspace;
+in vec4 vertex_position_lightspace2;
+
+// Uniforms
+uniform sampler2D shadowMapSampler;
+uniform sampler2D shadowMapSampler2;
+uniform sampler2D diffuseColorSampler;
+uniform sampler2D specularColorSampler;
+
+uniform int useTexture = 0;
+
+// Need View Matrix to calculate Light Positions in Camera Space
+uniform mat4 V; 
+
+// Light properties
+struct Light {
+    vec4 La;
+    vec4 Ld;
+    vec4 Ls;
+    vec3 lightPosition_worldspace;
+};
+uniform Light light;  // Light 1
+uniform Light light2; // Light 2
+
+// Material properties
+struct Material {
+    vec4 Ka; 
+    vec4 Kd;
+    vec4 Ks;
+    float Ns; 
+};
+uniform Material mtl;
+
+out vec4 fragmentColor;
+
+// Function Prototypes
+// Changed to return vec3 so we can add them up
+vec3 calculatePhong(Light l, float visibility, vec3 norm, vec3 viewPos, vec4 matKa, vec4 matKd, vec4 matKs, float matNs);
+float ShadowCalculation(vec4 fragPositionLightspace, sampler2D shadowMap); 
+
+void main() {   
+    // 1. Prepare Material Properties (Texture vs Material)
+    // We do this once here so we don't do texture lookups twice
+    vec4 _Ks = mtl.Ks;
+    vec4 _Kd = mtl.Kd;
+    vec4 _Ka = mtl.Ka;
+    float _Ns = mtl.Ns;
+
+    if (useTexture == 1) {
+        _Ks = vec4(texture(specularColorSampler, vertex_UV).rgb, 1.0);
+        _Kd = vec4(texture(diffuseColorSampler, vertex_UV).rgb, 1.0);
+        _Ka = vec4(0.05 * _Kd.rgb, _Kd.a);
+        _Ns = 10.0;
+    }
+    
+    vec3 N = normalize(vertex_normal_cameraspace.xyz);
+    vec3 ViewPos = vertex_position_cameraspace.xyz;
+
+    // 2. Calculate Shadows
+    // Fix: Pass the specific sampler for each
+    float shadow1 = ShadowCalculation(vertex_position_lightspace, shadowMapSampler);
+    float shadow2 = ShadowCalculation(vertex_position_lightspace2, shadowMapSampler2);
+
+    // 3. Calculate Lighting (Additive)
+    vec3 finalColor = vec3(0.0);
+
+    // Light 1 Contribution
+    finalColor += calculatePhong(light, 1.0 - shadow1, N, ViewPos, _Ka, _Kd, _Ks, _Ns);
+    
+    // Light 2 Contribution
+    finalColor += calculatePhong(light2, 1.0 - shadow2, N, ViewPos, _Ka, _Kd, _Ks, _Ns);
+
+    fragmentColor = vec4(finalColor, 1.0);
+}
+
+// Updated Shadow Function
+float ShadowCalculation(vec4 fragPositionLightspace, sampler2D shadowMap) {
+    vec3 projCoords = fragPositionLightspace.xyz / fragPositionLightspace.w;
+    projCoords = projCoords * 0.5 + 0.5;
+
+    if (projCoords.z > 1.0)
+        return 0.0;
+
+    // CRITICAL FIX: Use the 'shadowMap' argument, NOT 'shadowMapSampler'
+    float closestDepth = texture(shadowMap, projCoords.xy).r;
+    float currentDepth = projCoords.z;
+    float bias = 0.005;
+
+    // PCF
+    float shadow = 0.0;
+    // CRITICAL FIX: Use 'shadowMap' argument
+    vec2 depthMap_dimensions = textureSize(shadowMap, 0);
+    vec2 texelSize = 1.0 / depthMap_dimensions;
+    
+    for(int x = -1; x <= 1; x++ ){
+        for(int y = -1; y <= 1; y++ ){
+            // CRITICAL FIX: Use 'shadowMap' argument
+            float pcfDepth = texture(shadowMap, projCoords.xy + vec2(x, y) * texelSize).r;
+            shadow += currentDepth - bias > pcfDepth ? 1.0 : 0.0;
+        }
+    }
+    shadow /= 9.0;
+
+    return shadow;
+}
+
+// Updated Phong Function for Directional Light (Homework 5)
+vec3 calculatePhong(Light l, float visibility, vec3 N, vec3 ViewPos, vec4 _Ka, vec4 _Kd, vec4 _Ks, float _Ns) {
+   
+    // Ambient (Ia)
+    vec3 Ia = l.La.rgb * _Ka.rgb;
+
+    // 1. Directional Light:
+    // Το φως δεν έχει συγκεκριμένη θέση, αλλά κατεύθυνση.
+    // Εφόσον "κοιτάει" προς το (0,0,0), το διάνυσμα ΠΡΟΣ το φως είναι απλά το l.lightPosition_worldspace.
+    
+    // 2. Μετατροπή σε Camera Space:
+    // Χρησιμοποιούμε το 0.0 στο w-component (vec4(..., 0.0)).
+    // Αυτό λέει στον πίνακα V να αγνοήσει τη μετατόπιση και να κρατήσει μόνο την περιστροφή.
+    vec3 lightDirection_cameraspace = (V * vec4(l.lightPosition_worldspace, 0.0)).xyz;
+
+    // 3. Υπολογισμός L (Light Vector):
+    // Δεν αφαιρούμε πλέον το ViewPos (FragPos), γιατί οι ακτίνες είναι παράλληλες.
+    vec3 L = normalize(lightDirection_cameraspace);
+
+    // Diffuse (Id)
+    float cosTheta = clamp(dot(N, L), 0.0, 1.0);
+    vec3 Id = l.Ld.rgb * _Kd.rgb * cosTheta;
+
+    // Specular (Is)
+    vec3 R = reflect(-L, N);
+    vec3 E = normalize(-ViewPos); 
+    float cosAlpha = clamp(dot(E, R), 0.0, 1.0);
+    float specular_factor = pow(cosAlpha, _Ns);
+    vec3 Is = l.Ls.rgb * _Ks.rgb * specular_factor;
+
+    // Combine
+    return Ia + (Id * visibility) + (Is * visibility);
+}

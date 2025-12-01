@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/cmake_install.cmake",
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/cmake_install.cmake",
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/cmake_install.cmake",
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/src/cmake_install.cmake",
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/glfw-3.4/docs/cmake_install.cmake",
+		"/Users/konstantinoskanellopoulos/Downloads/lab06/build/external/Simple-OpenGL-Image-Library/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

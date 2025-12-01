@@ -1,0 +1,46 @@
+#version 330 core
+
+layout(location = 0) in vec3 vertexPosition_modelspace;
+layout(location = 1) in vec3 vertexNormal_modelspace;
+layout(location = 2) in vec2 vertexUV;
+
+// Matrices
+uniform mat4 P;
+uniform mat4 V;
+uniform mat4 M;
+uniform mat4 lightVP;
+uniform mat4 lightVP2;
+
+// HW4: Logic to invert normals for light spheres
+uniform int invertNormals = 0;
+
+// Outputs to Fragment Shader
+out vec4 vertex_position_cameraspace;
+out vec4 vertex_normal_cameraspace;
+out vec2 vertex_UV;
+out vec4 vertex_position_lightspace;
+out vec4 vertex_position_lightspace2;
+
+void main() {
+    // 1. Position in Clip Space (Standard)
+    gl_Position =  P * V * M * vec4(vertexPosition_modelspace, 1);
+    
+    // 2. Position and Normal in Camera Space (For Lighting)
+    vertex_position_cameraspace = V * M * vec4(vertexPosition_modelspace, 1);
+    
+    // Handle Normal Inversion
+    vec3 N = vertexNormal_modelspace;
+    if (invertNormals == 1) {
+        N = -vertexNormal_modelspace; 
+    }
+    
+    // Calculate Normal in Camera Space
+    vertex_normal_cameraspace = V * M * vec4(N, 0.0);
+    
+    // 3. Texture Coordinates
+    vertex_UV = vertexUV;
+
+    // 4. Shadow Map Coordinates
+    vertex_position_lightspace = lightVP * M * vec4(vertexPosition_modelspace, 1.0);
+    vertex_position_lightspace2 = lightVP2 * M * vec4(vertexPosition_modelspace, 1.0); 
+}

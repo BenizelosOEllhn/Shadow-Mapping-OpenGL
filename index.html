@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Mapping Implementation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2d2d2d;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        h1 { margin: 0; color: #4CAF50; }
+        h3 { color: #aaaaaa; font-weight: 400; }
+        .container {
+            max-width: 900px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .video-wrapper {
+            margin-top: 30px;
+            border: 2px solid #444;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+        video {
+            display: block;
+            width: 100%;
+            max-height: 80vh;
+        }
+        .description {
+            margin-top: 20px;
+            text-align: left;
+            background: #252525;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        code {
+            background: #333;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #ff9800;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Advanced Computer Graphics</h1>
+        <h3>Shadow Mapping & Multi-Light Rendering</h3>
+    </header>
+
+    <div class="container">
+        
+        <div class="description">
+            <h2>Project Overview</h2>
+            <p>
+                This project demonstrates <strong>Shadow Mapping</strong> using OpenGL 3.3 and C++. 
+                It features a custom implementation of shadow generation for multiple light sources.
+            </p>
+            <ul>
+                <li><strong>Multiple Lights:</strong> Additive blending of two distinct light sources (Green and Blue).</li>
+                <li><strong>Shadow Mapping:</strong> Uses custom Framebuffers and Depth Textures.</li>
+                <li><strong>PCF Filtering:</strong> Softens shadow edges for realism.</li>
+                <li><strong>Directional Lighting:</strong> Corrected projection to simulate sun-like parallel rays.</li>
+            </ul>
+        </div>
+
+        <div class="video-wrapper">
+            <video controls autoplay muted loop>
+                <source src="demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        OpenGL Project | Electrical & Computer Engineering
+    </footer>
+
+</body>
+</html>
